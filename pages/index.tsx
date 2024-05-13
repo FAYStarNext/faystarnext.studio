@@ -2,7 +2,6 @@ import GithubIcon from "@/components/GithubIcon";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useRef } from "react";
 import { Button } from "@nextui-org/react";
 
 export default function Page() {

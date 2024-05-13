@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <meta name="twitter:image" content="https://cdn.faystarnext.studio/backg.png" />
             </Head>
             <NextNavbar />
-                <main>{children}</main>
+            <main>{children}</main>
         </>
     )
 }

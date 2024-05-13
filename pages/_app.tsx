@@ -4,9 +4,7 @@ import * as React from "react";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Layout from "@/components/Layout";
 import Loading from "@/components/loading";
-import { AnimatePresence, motion } from "framer-motion";
-import { useRouter } from "next/router";
-import NextNavbar from "../components/Navbar";
+import { motion } from "framer-motion";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
