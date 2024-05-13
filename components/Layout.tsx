@@ -1,7 +1,5 @@
-import { Metadata } from "next";
 import NextNavbar from "./Navbar";
 import Head from "next/head";
-import { ScrollShadow } from "@nextui-org/react";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
